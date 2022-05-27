@@ -1,0 +1,142 @@
+
+.menu-container {
+    background-color: #d3c5ec;
+    color: #FFF;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    border: 1px solid #fff;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-main {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+a {
+    color: rgb(48, 27, 27);
+}
+
+footer ul li a {
+    color: darkgreen;
+}
+
+.contenedor-footer{
+    background-color: rgb(176, 247, 248);
+}
+
+
+p { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: rgb(88, 35, 88);
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.containerRopa{
+
+    width: 100% auto;
+  
+    padding: 1rem;
+  
+    margin:0.5rem;
+  
+    display: grid;
+  
+    grid-template-rows: repeat(1,1fr);
+  
+    grid-template-columns: repeat(3,1fr);
+    
+    justify-items: center;
+  
+    align-items: center;
+  
+    gap: 0.5rem;
+  
+    grid-template-areas: 
+    "zapatos camisa pantalon";
+    
+  }
+
+  .medidaImagenes{
+      width: 100%;
+      margin: 0.5rem;
+      padding: 2px;
+
+
+  }
+  
+  
+  .camiseta{
+    
+    grid-area: zapatos;
+    
+    width: 100%;
+
+    margin: 0.5rem;
+
+    padding: 2px;
+
+    background-color: rgb(130, 228, 228);
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .camisa{
+    
+    grid-area: camisa;
+    
+    width: 90%;
+
+    margin: 0.5rem;
+    
+    padding: 2px;
+
+    background-color: rgb(161, 112, 112);
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+  
+  }
+  
+  .croptop{
+   
+    grid-area: pantalon;
+    
+    
+    width: 70%;
+
+    margin: 0.5rem;
+    
+    padding: 2px;
+    background-color: rgb(132, 132, 221);
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+    
+  }
