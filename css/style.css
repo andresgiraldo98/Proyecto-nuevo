@@ -25,12 +25,17 @@ a {
     color: rgb(48, 27, 27);
 }
 
-footer ul li a {
-    color: darkgreen;
+footer {
+    height:10px;
+    width: 10px;
+    margin: 50px auto;
+    float: left;
+    transition: all 2s;
 }
 
 .contenedor-footer{
-    background-color: rgb(176, 247, 248);
+    transform: scale(2) translate(120px) rotate(90deg);
+
 }
 
 .btn-wsp{
@@ -54,6 +59,17 @@ footer ul li a {
     background: blanchedalmond;
 }
 
+.combinado {
+    height:10px;
+    width: 10px;
+    margin: 50px auto;
+   
+    transition: all 2s;
+   }
+   
+   .combinado:hover {
+       transform: scale(1) translate(120px) rotate(90deg);
+   }   
 
 p { 
     font-family: 'Roboto', sans-serif;
@@ -92,8 +108,6 @@ p {
       width: 100%;
       margin: 0.5rem;
       padding: 2px;
-
-
   }
   
   
