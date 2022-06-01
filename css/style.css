@@ -34,7 +34,8 @@ footer {
 }
 
 .contenedor-footer{
-    background-color: rgb(176, 247, 248);
+    transform: scale(2) translate(120px) rotate(90deg);
+
 }
 
 .btn-wsp{
