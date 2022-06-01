@@ -108,10 +108,8 @@ p {
       margin: 0.5rem;
       padding: 2px;
 
-
   }
-  
-  
+   
   .camiseta{
     
     grid-area: zapatos;
@@ -121,8 +119,6 @@ p {
     margin: 0.5rem;
 
     padding: 2px;
-
-    background-color: rgb(130, 228, 228);
 
     display: flex;
 
@@ -143,8 +139,6 @@ p {
     
     padding: 2px;
 
-    background-color: rgb(161, 112, 112);
-
     display: flex;
 
     justify-content: center;
@@ -159,13 +153,11 @@ p {
    
     grid-area: pantalon;
     
-    
     width: 70%;
 
     margin: 0.5rem;
     
     padding: 2px;
-    background-color: rgb(132, 132, 221);
 
     display: flex;
 
@@ -176,3 +168,4 @@ p {
     align-items: center;
     
   }
+  
